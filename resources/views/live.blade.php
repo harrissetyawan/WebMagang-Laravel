@@ -6,6 +6,8 @@
     @parent
 @endsection
 
+@section('active', 'active')
+
 @section('content')
 <div class="container">
     <!-- <table class="table">
