@@ -1,0 +1,33 @@
+td {
+    width: 150px;
+    text-align: left;
+    padding: 5px;
+    border: 1px solid #dee2e6;
+    border-right: 0;
+}
+
+td:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+td:last-child {
+    border: 1px solid #dee2e6;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+th {
+    width: 150px;
+    text-align: left;
+    border: 1px solid #dee2e6;
+}
+
+#tb2 {
+    border-collapse: separate;
+    border-spacing: 0px 10px;
+}
+
+.head {
+    border: hidden;
+}
