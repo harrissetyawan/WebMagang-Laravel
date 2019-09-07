@@ -4,7 +4,6 @@
 
 @section('sidebar')
     @parent
-
 @endsection
 
 @section('content')
